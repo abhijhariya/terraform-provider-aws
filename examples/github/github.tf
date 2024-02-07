@@ -1,8 +1,8 @@
-provider "github" {
-  token="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"
+provider "gitlab" {
+  token="KpKcEs4n7Zs6MrkALUDy"
 }
 
-resource "github_repository" "myrepo_terraform" {
+resource "gitlab_repository" "myrepo_terraform" {
   name          = "first_terraform_repo"
   description   = "repo for demo"
   visibility    = "private"
