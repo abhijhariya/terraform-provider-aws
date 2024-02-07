@@ -1,4 +1,8 @@
-provider "gitlab" {
+required_provider  {
+    gitlabhq/gitlab = {
+    source  = "gitlabhq/gitlab"
+    version = ">= 16.8.1"
+  }
   token="KpKcEs4n7Zs6MrkALUDy"
 }
 
