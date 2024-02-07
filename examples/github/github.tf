@@ -1,4 +1,4 @@
-provider "gitlabhq/gitlab" {
+provider "gitlab" {
   token="KpKcEs4n7Zs6MrkALUDy"
 }
 
