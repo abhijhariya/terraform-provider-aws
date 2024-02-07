@@ -1,4 +1,4 @@
-required_provider  {
+provider  {
     gitlabhq/gitlab = {
     source  = "gitlabhq/gitlab"
     version = ">= 16.8.1"
