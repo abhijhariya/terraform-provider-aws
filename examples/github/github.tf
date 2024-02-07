@@ -1,8 +1,8 @@
-provider "gitlab" {
+provider "gitlabhq/gitlab" {
   token="KpKcEs4n7Zs6MrkALUDy"
 }
 
-resource "gitlab_repository" "myrepo_terraform" {
+resource "ggitlab_project" "myrepo_terraform" {
   name          = "first_terraform_repo"
   description   = "repo for demo"
   visibility    = "private"
